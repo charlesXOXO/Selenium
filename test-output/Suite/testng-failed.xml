@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="E2ETestCase.HomePage">
+        <methods>
+          <include name="urlintitalize"/>
+          <include name="Base_Navigation" invocation-numbers="0 1"/>
+          <include name="teardowndriver"/>
+        </methods>
+      </class> <!-- E2ETestCase.HomePage -->
+      <class name="E2ETestCase.ValidateText">
+        <methods>
+          <include name="urlintitalize"/>
+          <include name="text_course"/>
+          <include name="teardowndriver"/>
+        </methods>
+      </class> <!-- E2ETestCase.ValidateText -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

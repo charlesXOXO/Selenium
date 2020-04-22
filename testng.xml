@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="E2ETestCase.Listeners"></listener>
+	</listeners>
+	<test name="Validating Navigation Display">
+		<classes>
+			<class name="E2ETestCase.validateNavigation" />
+		</classes>
+	</test>
+	<test name="Homepage Validation">
+		<classes>
+			<class name="E2ETestCase.HomePage" />
+		</classes>
+	</test>
+	<test name="Validate Text Course">
+		<classes>
+			<class name="E2ETestCase.ValidateText" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

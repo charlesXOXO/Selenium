@@ -1,0 +1,7 @@
+22:54:40.647 [main] INFO  Resources.driver_details - Navigation bar is displayed
+22:54:54.018 [main] INFO  Resources.driver_details - Non Restricted User
+22:55:09.278 [main] INFO  Resources.driver_details - Restricted User
+22:56:55.200 [main] INFO  Resources.driver_details - Navigation bar is displayed
+22:57:08.435 [main] INFO  Resources.driver_details - Non Restricted User
+22:57:25.285 [main] INFO  Resources.driver_details - Restricted User
+22:57:39.011 [main] INFO  Resources.driver_details - The assert was successful
