@@ -27,6 +27,7 @@ public class driver_details {
 
 		if (browser.equalsIgnoreCase("chrome")) {
 
+			System.out.println("hahahahahahhuhuhuhuhuh");
 			System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 			driver = new ChromeDriver();
 		} else if (browser.equalsIgnoreCase("firefox")) {
